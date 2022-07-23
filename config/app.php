@@ -17,6 +17,10 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'PACKT_TOKEN' => env('PACKT_TOKEN'),
+
+    'PACKT_API_URL' => env('PACKT_API_URL'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
